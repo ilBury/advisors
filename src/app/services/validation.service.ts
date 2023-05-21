@@ -5,7 +5,7 @@ import { AbstractControl, ValidationErrors, ValidatorFn } from '@angular/forms';
   providedIn: 'root'
 })
 export class ValidationService {
-
+/*
   constructor() { }
 
   static mailValidator(): ValidatorFn {
@@ -14,5 +14,5 @@ export class ValidationService {
       const isValidLogin = nameRe.test(control.value);
       return !isValidLogin ? {invalid: true} : null;
     };
-  }
+  } */
 }

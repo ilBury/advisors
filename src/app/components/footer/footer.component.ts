@@ -10,7 +10,7 @@ import { DialogComponent } from '../dialog/dialog.component';
   styleUrls: ['./footer.component.scss']
 })
 export class FooterComponent {
-  public form = this.fb.group({
+ /*  public form = this.fb.group({
     mail: new FormControl<string>('', [
       Validators.required,
       Validators.maxLength(19),
@@ -40,6 +40,6 @@ export class FooterComponent {
       this.openDialog();
     }
 
-  }
+  } */
 
 }
