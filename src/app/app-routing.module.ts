@@ -5,14 +5,13 @@ import { MainPageComponent } from './components/main-page/main-page.component';
 const routes: Routes = [
   {
     path: '',
-    redirectTo: 'main',
-    pathMatch: 'full'
+    component: MainPageComponent
   },
-  {
+  /* {
     path: 'main',
     component: MainPageComponent
 
-  },
+  }, */
 ];
 
 @NgModule({
