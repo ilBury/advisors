@@ -5,8 +5,8 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './main-page.component.html',
   styleUrls: ['./main-page.component.scss']
 })
-export class MainPageComponent implements OnInit {
-  public currentTime: Date;
+export class MainPageComponent  {
+ /*  public currentTime: Date;
   public deadlineTime = new Date(2023, 4, 30, 23, 59, 59);
   public time: Time;
 
@@ -27,7 +27,7 @@ export class MainPageComponent implements OnInit {
       Seconds: this.deadlineTime.getSeconds() - this.currentTime.getSeconds()
     }
   }
-
+ */
 
 
 }
